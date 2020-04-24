@@ -46,7 +46,7 @@ namespace TweetPurge
 
                     await ProcessTwitterAccount(consumerKey.FirstOrDefault(), consumerSecret.FirstOrDefault());
 
-                    Console.WriteLine("\r\n\r\nSuccessfully purged your Twitter timeline. Enjoy!")
+                    Console.WriteLine("\r\n\r\nSuccessfully purged your Twitter timeline. Enjoy!");
                     return 1;
                 });
             });
